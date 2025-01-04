@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form</title>
+       <script src="script/tab.js"></script>
+       <link rel="stylesheet" type="text/css" href="CSS/application.css">
+       <link rel="stylesheet" type="text/css" href="CSS/hbappform.css">
+
+</head>
+<body>
+    <div class="container">
+    <header id="header">
+      <nav>
+        <a href="/home.html">
+          <img src="/images/hotbeansweblogo1.png" alt="Your Logo" class="rounded-image">
+        </a>
+        <div id="nav-links">
+          <ul>
+            <li><a href="/home.html"> Home</a></li>
+              <li class="dropdown">
+                <a href="/about.html" class="dropbtn">About</a>
+                <div class="dropdown-content">
+                    <a href="#service">Service</a>
+                    <a href="#plans and pricing">Plans and Pricing</a>
+                </div>
+            </li>
+                <li class="dropdown">
+                <a href="/applicationform.html" class="dropbtn">Application form</a>
+                <div class="dropdown-content">
+                    <a href="#visit">Visit us</a>
+                </div>
+            </li>
+                <li class="dropdown">
+                <a href="/meetourteam.html" class="dropbtn">Meet Our Team</a>
+                <div class="dropdown-content">
+                    <a href="#contact-us">Contact us</a>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+   <section class="one">
+     <h2> Talent acquisition at Hot Beans Web</h2>
+<div class="tab-container">
+ <div class="tab active" onclick="showTab('tab1')">Join Our Team of Creative Tech Expert </div>
+ <div class="tab" onclick="showTab('tab2')">Qualifications</div>
+ <div class="tab" onclick="showTab('tab3')">Skills</div> 
+ </div> 
+  <div id="tab1" class="tab-content active">
+  <p>  Are you a passionate and talented individual with a flair for design and technology? We’re seeking hardworking and flexible team members to join our dynamic web development. At Hot Beans, we’re committed to delivered exceptional web solution that make a difference. We’re seeking talented individuals to join our team and help us shape the future of the web.
+   We’re more than just a company; we are a community of creative and passionate individuals, we also offer a supportive and challenging work environment that fosters professional development.</p>
+   <div id="web-dev-courses" class="container">
+   <div class="row">
+    <div class="col">
+      <p> Web Development Courses</p>
+   <ol>
+    <li><a href="https://www.freecodecamp.org/">Freecodecamp</a></li>
+      <li><a href="https://www.coursera.org/specializations/web-development">Couresa</a></li>
+      <li><a href="https://www.udemy.com/topic/web-development/">Udemy</a></li>
+        </div>
+        <div class="col">
+      <p> Recommded YouTube Channels for Web Development</p>
+       <ol>
+        <li><a href="https://www.youtube.com/c/TraversyMedia" target="_blank">Traversy Media</a></li>
+        <li><a href="https://www.youtube.com/c/freeCodeCamp" target="_blank">Free Code Camp</a></li>
+        <li><a href="https://www.youtube.com/c/WebDevSimplified" target="_blank">Web Dev Simplified</a></li>
+                </div>
+   </div>
+    </div>
+  </div>
+ <div id="tab2" class="tab-content"> 
+    <p>
+      <ol>
+        </li>
+
+     <li>GCSE in IT (or BTEC equivalent)</li>
+      <li>GSCE in Art (or BTEC equivalent)</li>
+     <li>Level 2 award in creating website </li>
+      <li>Level 2 Certificate in Interactive Media</li>
+    <li> Level 2/3 Diploma in Creative iMedia</li>
+      <li>Level 3 Diploma  in Information Technology
+   (Specialist)<br />
+     <li>Level 3 Diploma in IT User Skills</li>
+     </ol>
+     </p>
+              </div> <div id="tab3" class="tab-content">
+                  <p>
+        <ol>
+        <li>Proficiency in HTML, CSS, and JavaScript</li>
+      <li>Experience with web development frameworks (e.g., React, Angular, Vue.js)</li>
+      <li>Knowledge of web design software (e.g.,Adobe Creative Suite).</li>
+      </ol></p>
+    </div>
+   </section>
+  
+    
+   <section class="application-form">
+  <div class="Apply-form">
+<h3>Apply online
+</h3>
+<form action>
+  <input type="text" placeholder="Full name">
+  <input type="email" placeholder="Email">
+  <input type="tel" placeholder="Telephone">
+  <input type="text" placeholder="Date of birth">
+  <input type="text" placeholder="first line of address">
+  <input type="text" placeholder="town">
+  <textarea rows="10" cols="180" placeholder="more information"></textarea>
+  <div class="form-container">
+     <h2>Upload Your CV</h2>
+      <form action="/upload" method="post" enctype="multipart/form-data"> 
+      <label for="cv">Choose your CV:</label>
+       <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required> 
+       <button type="submit">Upload</button>
+       </div>
+    <button id="myButton">Submit</button>
+  </section>
+   <section id="visit">
+    <h2 class="one"> Visit us</h2>
+    <div class="visit-info">
+      <p><strong> Address: </strong> 10 High Street Lincoln,Lincolnshire,LN1 1AB</p>
+      <p><strong> Phone: </strong> (555) 123-4567</p>
+       <p><strong> Email: </strong> Email: Kanesha Brown@hotbeans.agency</p>
+       <p><strong>Hours of Operation:</strong></p>
+       <ol>
+        <li> Monday - Wednesday: 10:00AM - 5:00PM</li>
+        <li> Thursday: 10:00AM - 4:00PM </li>
+        <li> Friday: 10:00AM - 2:00PM </li>
+        <li> Saturday - Sunday: Closed </li>
+        </ol>
+        </div>
+         <div class="map" style="width: 100%">
+          <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=10%20High%20Street%20Lincoln,Lincolnshire,LN1%201AB+(Hot%20Beans%20Web)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe></div>
+   </div>
+   </section>
+</body>
+</html>

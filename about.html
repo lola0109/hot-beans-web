@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+
+  <link rel="stylesheet" type="text/css" href="CSS/about.css"> 
+   <link rel="stylesheet" type="text/css" href="CSS/hb.css"> 
+</head>
+<body>
+  <div class="container">
+    <header id="header">
+      <nav>
+        <a href="/home.html">
+          <img src="/images/hotbeansweblogo1.png" alt="Your Logo" class="rounded-image">
+        </a>
+        <div id="nav-links">
+          <ul>
+            <li><a href="/home.html"> Home</a></li>
+              <li class="dropdown">
+                <a href="/about.html" class="dropbtn">About</a>
+                <div class="dropdown-content">
+                    <a href="#service">Service</a>
+                    <a href="#plans and pricing">Plans and Pricing</a>
+                </div>
+            </li>
+                <li class="dropdown">
+                <a href="/applicationform.html" class="dropbtn">Application form</a>
+                <div class="dropdown-content">
+                    <a href="#visit">Visit us</a>
+                </div>
+            </li>
+                <li class="dropdown">
+                <a href="/meetourteam.html" class="dropbtn">Meet Our Team</a>
+                <div class="dropdown-content">
+                    <a href="#contact-us">Contact us</a>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+  <h1 class="one">ABOUT</h1>
+  <h2 class="two">Get to know us </h2>
+  <h3 class="three"> Our Company</h3>
+  <p>Hot Beans is a dynamic web development located in Lincoln, Co-founder by two incredible and talented<br /> ladies, dedicated to crafting exceptional digital experiences. Our expert web team specialize in creating <br />initial designs that include wireframes,storyboards, screen mock-ups, and innovative ideas for SEO and <br />interactive elements.We ensure that our designs are responsive on PCs and mobile device,once the design is<br /> finalized,it serves as a blueprint for the actual website, which we build using HTML, CSS, AND JavaScript.<br /> Our commitment to quality involves presenting the website to the client and engaging in thorough user testing <br /> to ensure it meets their needs.</p>
+  <div class="image-container">
+     <img src="/images/introductionimage.png" alt="Normal Image" class="rollover-image"> 
+     <img src="/images/introduction2img.png" alt="Hover Image" class="hover-image">
+      </div>
+  </section>
+  <section id="service">
+  <h1 class="one-one"> SERVICE</h1>
+  <h2 class="two"> Check out our service offerings </h2>
+  <h3> Customized Web Design </h3>
+  <p class="one"> At Hot Beans, we specialize in crafting unique and engaging web design tailored to your brand’s identity.<br /> Our team start by developing wireframes and storyboards to visualize the user experience.<br /> We focus in creating designs that are not only aesthetically pleasing but also optimized for search engines.<br /> Our design process ensures that your website and function seamlessly across all devices,<br /> from PCs to mobiles. Let us bring your vision to life with a website that stands out<br />  and delivers exceptional performance.  </p>
+  <img src="/images/serviceimg1.png" alt="info on services rendered" class="left">
+  <h3 class="one"> Responsive Website Development</h3> 
+  <p class="one-one"> Our website development team at Hot Beans is dedicated to constructing responsive websites that adapt beautifully to any screen size. Using the latest technologies in HTML, CSS and JavaScript, we build sites that are fast, reliable, and user-friendly. we ensure that every element of the site is optimized for both desktop and mobile devices, providing  an optimal user experience. Our developer work closely with designer to bring your ideas to fruition, creating a seamlessly and interactive website. Trust us to develop a site that meet your needs and exceeds your expectations.</p>
+  <img src="/images/serviceimg2.png" alt="image on about" class="right-one">
+  <h3 class="one-one"> User Testing and Optimization</h3>
+  <p class="one"> Hot Beans offers comprehensive user testing services to ensure your website functions flawlessly before launch. Our team conducts rigorous tests to gather feedback on usability, design, and performance. we identify areas for improvement and make necessary adjustments to enhance the user experience. this process helps in uncovering potential issues and ensures your website is fully optimized for your audience. With our expert testing and optimization services, you can launch your site with confidence, knowing it will deliver the best possible experience to your users. </p>
+  <img src="/images/serviceimg3.png" alt="image about the service rendered" class="left">
+  </section>
+  <section id="plans and pricing">
+    <h1 class="one-one"> Plans and Pricing</h1>
+    <h2 class="two"> Affordables solution for every need </h2>
+      <div class="row">
+     <div class="col">
+        <h3>Starter</h3>
+        <p> £50/month</p>
+        <p> Some key features </p>
+        <ol>
+            <li> Reponsive layout included</li>
+            <li> Basic design package</li>
+            <li> SEO-ready framework</li>
+            </ol>
+             <button id="myButton">Buy starter now</button>
+     </div>
+    <div class="col">
+                <h3> Professional</h3>
+                <p> £200/month</p> 
+        <p> Some key features </p>
+        <ol>
+            <li> Comprehensive user testing</li>
+            <li>Enchanced mobile optimization</li>
+            <li> Advanced design features</li>
+            </ol>
+             <button id="myButton">Buy professional now</button>
+    </div>
+    <div class="col">
+        <h3>Enterprise</h3>
+        <p> £600/month</p>
+        <p> Some key features </p>
+        <ol>
+            <li>Custom design solutions </li>
+            <li>Full-device compatibilty </li>
+            <li>Priority client support </li>
+            </ol>
+               <!-- Link to open the popup -->
+    <a href="#popup" class="open-popup-btn">Buy enterprise now</a>
+
+    <!-- The popup container -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close-popup-btn">&times;</a>
+            <h2> Yes, it works!</h2>
+            <h2> Here's <span class="highlight"> 20% OFF</span> to prove it.</h2>
+            <form>
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit"> Submit</button>
+              </form>
+        </div>
+    </div>
+    </div>
+      </div>
+            </section>
+ </body>
+</html>
